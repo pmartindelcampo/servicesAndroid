@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/exampleService"
+        android:layout_marginHorizontal="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Servicios básicos" />
+
+    <Button
+        android:id="@+id/boundService"
+        android:layout_marginHorizontal="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Servicios enlazados" />
+
+    <Button
+        android:id="@+id/ipc"
+        android:layout_marginHorizontal="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interconexión" />
+
+    <Button
+        android:id="@+id/foreground"
+        android:layout_marginHorizontal="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Primer plano" />
+
+    <Button
+        android:id="@+id/download"
+        android:layout_marginHorizontal="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descarga" />
+</LinearLayout>
